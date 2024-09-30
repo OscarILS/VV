@@ -59,7 +59,7 @@ Violación: Unknown property 'class' found, use 'className' instead
   <div class="contenedor_register">
   ...
   <div class="contenedor_login">
-
+>
 Corrección:  Utilizar 'claseName' en vez de 'class'
 > <div className="contenedor_todo">
   ...
