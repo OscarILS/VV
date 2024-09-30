@@ -13,3 +13,27 @@ Accepted issues: 0
 Duplications: 1.4% on 27k lines
 
 Security hotspots: 3
+
+
+# Lista de correcciones
+Violación: A form label must be associated with a control.
+>  label for="aerolinea"Nombre de la Aerolínea:</label>  
+A form label must be associated with a control.  
+
+                            <input type="text" name="aerolinea" onChange={comprobarCambiosAerolinea} required value={aerolinea}></input><br></br>  
+                            <label for="origen">Ingrese el punto de partida:</label>  
+                            <input type="text" id="origen" name="origen" onChange={comprobarCambiosOrigen} required value={origen}></input><br></br>  
+                            <label for="origen">Ingrese el punto de llegada:</label>  
+                            <input type="text" id="destino" name="destino" onChange={comprobarCambiosDestino} required value={destino}></input><br></br>  
+                            <label for="precio">Precio:</label>  
+                            <input type="number" id="precio" name="precio" onChange={comprobarCambiosPrecio} required value={precio}></input><br></br>  
+                            <label for="cantidad">Cantidad:</label>  
+                            <input type="number" id="cantidad" name="cantidad" onChange={comprobarCambiosCantidad} required value={cantidad}></input><br></br>  
+                            <label for="fechaVuelo">Fecha de Vuelo:</label>  
+                            <input type="date" id="fechaVuelo" name="fechaVuelo" onChange={comprobarCambiosFechavuelo} required value={fechavuelo}></input><br></br>  
+                            <label for="horaSalida">Hora de Salida:</label>   
+                            <input type="time" id="horaSalida" name="horaSalida" onChange={comprobarCambiosHorasalida} required value={horasalida}></input><br></br>  
+
+
+
+  
