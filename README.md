@@ -37,7 +37,7 @@ A form label must be associated with a control.
 
 Correccion: Reemplazar el atributo <for> por <htmlFor>, permitiendo el uso correcto del atributo
 
-><label htmlFor="aerolinea">Nombre de la Aerolínea:</label>  
+>label htmlFor="aerolinea">Nombre de la Aerolínea:</label>  
 <input type="text" id="aerolinea" name="aerolinea" onChange={comprobarCambiosAerolinea} required value={aerolinea} /><br />  
 
 <label htmlFor="origen">Ingrese el punto de partida:</label>  
