@@ -53,3 +53,16 @@ Correccion: Reemplazar el atributo <for> por <htmlFor>, permitiendo el uso corre
 <input type="time" id="horaSalida" name="horaSalida" onChange={comprobarCambiosHorasalida} required value={horasalida} /><br />  
 
   
+Violación: Unknown property 'class' found, use 'className' instead
+>  <div class="contenedor_todo">
+  ...
+  <div class="contenedor_register">
+  ...
+  <div class="contenedor_login">
+
+Corrección:  Utilizar 'claseName' en vez de 'class'
+> <div className="contenedor_todo">
+  ...
+  <div className="contenedor_register">
+  ...
+  <div className="contenedor_login">
