@@ -67,23 +67,23 @@ export default function Register(){
     };
 
     return(
-        <body>
+    <body>
         <main>
-            <div class="contenedor_todo">
-                <div class="registrosUser">
+            <div className="contenedor_todo">
+                <div className="registrosUser">
                     <form onSubmit={guardarDatos}>
-                        <div class="datosPersonales">
+                        <div className="datosPersonales">
                             <h2>Es un placer tenerte aquí. ¿Cómo te llamas?</h2>
                             <input type="text" name="nombre" placeholder="Nombre" onChange={comprobarCambiosNombre} required value={name}></input><br></br>
                             <input type="text" name="lastname" placeholder="Apellido" onChange={comprobarCambiosApellido} required value={lastname}></input><br></br>
                             <input type="email" placeholder="E-Mail" onChange={comprobarCambiosEmail} required value={email} name="email"></input><br></br>
                         </div>
-                        <div class="numeroTelefono">
+                        <div className="numeroTelefono">
                             <h2>¿Cuál es tu número?</h2>
                             <h3>Solo se utilizará en el caso improbable que se necesite contactar con usted (opcional)</h3>
                             <input type="text" name="mobilenumber" placeholder="Número" onChange={comprobarCambiosNumero} value={mobilenumber}></input><br></br>
                         </div>
-                        <div class="crearcontrasena">
+                        <div className="crearcontrasena">
                             <h2>Crea una contraseña</h2>
                             <h3>Usa un mínimo de 10 caracteres que incluyan mayúsculas, minúsculas y números para mayor seguridad</h3>
                             <input type="password" name="contrasena" placeholder="Contraseña" onChange={comprobarCambiosContrasena} required value={password}></input><br></br><br></br>
@@ -92,7 +92,7 @@ export default function Register(){
                     </form>
                 </div>
             </div>
-    </main>
+        </main>
     </body>
     )
 }
